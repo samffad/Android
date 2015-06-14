@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_regist"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+	<TableLayout  
+		  android:id="@+id/table_regist"
+		  android:layout_width="fill_parent"
+		  android:layout_height="wrap_content"
+		  android:layout_marginLeft="20dp"
+          android:layout_marginRight="60dp"
+		  android:shrinkColumns="1"
+		  android:stretchColumns="1" >
+		  
+		  <TableRow>
+		      <TextView android:text="@string/username"/>
+		      <EditText
+        	    android:id="@+id/userName_regist"
+        	    android:inputType="none" 
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"/>		   
+		  </TableRow>
+		  
+		  <TableRow>
+		      <TextView android:text="@string/password"/>
+		      <EditText
+        	    android:id="@+id/password_regist"
+        	    android:inputType="textPassword"
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"/>
+		  </TableRow>  
+		  
+		  <TableRow>
+		      <TextView android:text="@string/password_repeat"/>
+		      <EditText
+        	    android:id="@+id/password_regist_repeat"
+        	    android:inputType="textPassword"
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"/>
+		  </TableRow>  
+	  
+		  <TableRow>
+		      <TextView android:text="@string/sex"/>
+		      <RadioGroup 
+		          android:id="@+id/sex_regist"
+		          android:orientation="horizontal"
+		          android:layout_gravity="center_horizontal">
+		          <RadioButton
+		              android:layout_width="wrap_content"
+		              android:layout_height="wrap_content"
+		              android:id="@+id/male"
+		              android:text="男"
+		              android:checked="true"
+		              />
+		          <RadioButton
+		              android:layout_width="wrap_content"
+		              android:layout_height="wrap_content"
+		              android:id="@+id/female"
+		              android:text="女"
+		              android:checked="true"
+		              />
+		      </RadioGroup>
+		  </TableRow>  
+	 </TableLayout>
+	 
+	 <Button
+		     android:id="@+id/submit_regist"
+		     android:layout_width="60dp"
+		     android:layout_height="wrap_content" 
+		     android:layout_gravity="center_horizontal"
+		     style="?android:attr/buttonBarButtonStyle"
+		     android:text="@string/regist" />
+</LinearLayout>

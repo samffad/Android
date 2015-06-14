@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"     
+    android:orientation="vertical"
+    android:layout_width="fill_parent"    
+    android:layout_height="fill_parent"> 
+
+    <ImageView
+            android:id="@+id/userImage_UserInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/desc"
+            android:src="@drawable/flight_icon" />
+        <TextView 
+            android:id="@+id/userName_UserInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        	android:text="@string/username"
+            android:textSize="20sp"/>
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"     
+    android:orientation="vertical"
+    android:layout_width="fill_parent"    
+    android:layout_height="fill_parent"> 
+         
+   	<LinearLayout
+   	    android:layout_width="fill_parent"     
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/userImage_UserInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/desc"
+            android:src="@drawable/flight_icon" />
+        <TextView 
+            android:id="@+id/userName_UserInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        	android:text="@string/username"
+            android:textSize="20sp"/>
+        <ImageView
+            android:id="@+id/userGender_UserInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/desc"
+            android:src="@drawable/gender_male" />     
+    </LinearLayout>   
+    <Button
+        android:id="@+id/addTravel_UserInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        style="?android:attr/buttonBarButtonStyle"
+        android:text="@string/addTravel" /> 
+    <Button
+        android:id="@+id/myTravel_UserInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        style="?android:attr/buttonBarButtonStyle"
+        android:text="@string/myTravel" />  
+    <Button
+        android:id="@+id/draftbox_UserInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        style="?android:attr/buttonBarButtonStyle"
+        android:text="@string/draftbox" />  
+    <Button
+        android:id="@+id/searchTravel_UserInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        style="?android:attr/buttonBarButtonStyle"
+        android:text="@string/searchTravel" />    
+    
+</LinearLayout>
