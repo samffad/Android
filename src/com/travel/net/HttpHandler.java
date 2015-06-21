@@ -20,8 +20,8 @@ public class HttpHandler {
 //
 //	public final static int WRONG_PWD = 308;// , µÇÂ¼Ò³Ãæ£¬ÃÜÂë´íÎó
 //	
-	public final static int SUCCESS = 100;
-	public final static int FAIL = 0;
+	public final static int SUCCESS = 1;
+	public final static int FAIL = 2;
 //    public final static int T=9;
 //	public  static String CHANNEL="AAAAAA";
     private Activity activity;

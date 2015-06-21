@@ -5,16 +5,51 @@
     android:layout_width="fill_parent"    
     android:layout_height="fill_parent"> 
 
-    <ImageView
-            android:id="@+id/userImage_UserInfo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:contentDescription="@string/desc"
-            android:src="@drawable/flight_icon" />
-        <TextView 
-            android:id="@+id/userName_UserInfo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-        	android:text="@string/username"
-            android:textSize="20sp"/>
+    <LinearLayout  
+        android:id="@+id/summary_addTravel"  
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"    
+	    android:layout_height="wrap_content"> 
+	   <TextView android:text="@string/addTitile"/>
+	   <EditText
+	       android:id="@+id/title_addTravel"
+	       android:inputType="none" 
+	       android:layout_width="fill_parent"
+	       android:layout_height="wrap_content"/>
+	   <Button
+	       android:id="@+id/addFootprint_addTravel"
+		   android:layout_width="60dp"
+		   android:layout_height="wrap_content" 
+		   android:layout_gravity="center_horizontal"
+		   style="?android:attr/buttonBarButtonStyle"
+		   android:text="@string/addFootprint" />
+	   <Button
+	       android:id="@+id/save_addTravel"
+		   android:layout_width="60dp"
+		   android:layout_height="wrap_content" 
+		   android:layout_gravity="center_horizontal"
+		   style="?android:attr/buttonBarButtonStyle"
+		   android:text="@string/save" />
+	   <Button
+	       android:id="@+id/upload_addTravel"
+		   android:layout_width="60dp"
+		   android:layout_height="wrap_content" 
+		   android:layout_gravity="center_horizontal"
+		   style="?android:attr/buttonBarButtonStyle"
+		   android:text="@string/upload" />
+	   <Button
+	       android:id="@+id/addBackground_addTravel"
+		   android:layout_width="60dp"
+		   android:layout_height="wrap_content" 
+		   android:layout_gravity="center_horizontal"
+		   style="?android:attr/buttonBarButtonStyle"
+		   android:text="@string/addBackground" />
+    </LinearLayout>
+        
+    <!-- 添加一个ListView控件 --> 
+    <ListView
+        android:id="@+id/list_footprint"   
+        android:layout_width="fill_parent"     
+        android:layout_height="wrap_content"/> 
+        
 </LinearLayout>

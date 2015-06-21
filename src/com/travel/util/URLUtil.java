@@ -6,6 +6,8 @@ public class URLUtil {
 		//µÇÂ¼
 		public static final String login="User/login";
 		public static final String register="User/register";
+		public static final String mytravel="User/mytravel";
+		public static final String traveldetail="User/traveldetail";
 //		public static final String verify="User/bind?";
 //		public static final String home="MainView";
 //		public static final String collect="UserAction/favourites";

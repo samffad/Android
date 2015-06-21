@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/footprint_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/flight_icon" />
+    <TextView
+	    android:id="@+id/footprint_desc" 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content" 
+	    android:textSize="16sp"
+	    android:textColor="#fff"
+	    android:text="我是图片描述"/>
+    
+    <TextView
+        android:id="@+id/footprint_date"
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content" 
+        android:textSize="16sp"
+        android:textColor="#fff"
+	    android:text="2015-06-18"/>
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/desc"
+            android:src="@drawable/flight_icon" />
+        
+        <TextView
+            android:id="@+id/footprint_loc"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:text="我在这儿"/>
+    </LinearLayout>
+</LinearLayout>

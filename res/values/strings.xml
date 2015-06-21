@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">WebViewTest</string>
+    <string name="app_name">BUPTTravel</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
@@ -22,4 +22,10 @@
     <string name="searchTravel">搜索游记</string>
     <string name="userInfoTitile">我的</string>
     <string name="search">搜索</string>
+    <string name="addTitile">游记标题</string>
+    <string name="addFootprint">添加足迹</string>
+    <string name="addLocation">点击图标定位</string>
+    <string name="save">保存游记</string>
+    <string name="upload">上传游记</string>
+    <string name="addBackground">添加游记背景</string>
 </resources>

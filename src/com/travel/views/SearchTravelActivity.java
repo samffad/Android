@@ -1,6 +1,6 @@
 package com.travel.views;
 
-import com.example.webviewtest.R;
+import com.bupttravel.R;
 
 import android.app.Activity;
 import android.os.Bundle;

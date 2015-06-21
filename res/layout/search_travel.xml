@@ -28,4 +28,11 @@
             android:inputType="none" 
         	android:layout_width="fill_parent"
         	android:layout_height="wrap_content"/>	
+    
+    <!-- search result -->
+    <ListView
+        android:id="@+id/list_search_travel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    
 </LinearLayout>

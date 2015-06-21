@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/add_footprint_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/flight_icon" />
+    <Button
+	       android:id="@+id/add_image"
+		   android:layout_width="60dp"
+		   android:layout_height="wrap_content" 
+		   android:layout_gravity="center_horizontal"
+		   style="?android:attr/buttonBarButtonStyle"
+		   android:text="添加游记图片" />
+    <EditText
+	    android:id="@+id/add_footprint_desc" 
+	    android:inputType="none" 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="fill_parent" 
+	    android:textSize="16sp"
+	    android:textColor="#fff"
+	    android:text="添加图片描述"/>
+    
+    <EditText
+        android:id="@+id/add_footprint_date"
+        android:inputType="date"
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:textSize="16sp"
+        android:textColor="#fff"/>
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+        <ImageButton
+            android:id="@+id/get_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/desc"
+            android:src="@drawable/flight_icon" />
+        
+        <TextView
+            android:id="@+id/add_footprint_loc"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:text="@string/addLocation" />
+    </LinearLayout>
+    <Button
+	       android:id="@+id/save_footprint"
+		   android:layout_width="60dp"
+		   android:layout_height="wrap_content" 
+		   android:layout_gravity="center_horizontal"
+		   style="?android:attr/buttonBarButtonStyle"
+		   android:text="保存足迹" />
+</LinearLayout>

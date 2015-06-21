@@ -14,7 +14,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/desc"
-            android:src="@drawable/flight_icon" />
+            android:src="@drawable/default_user_image" />
         <TextView 
             android:id="@+id/userName_UserInfo"
             android:layout_width="wrap_content"
@@ -26,7 +26,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/desc"
-            android:src="@drawable/gender_male" />     
+            android:src="@drawable/gender_male" />
+
+        <ImageButton
+            android:id="@+id/changeUserImage_UserInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/desc"
+            android:src="@drawable/change1" />
+    
     </LinearLayout>   
     <Button
         android:id="@+id/addTravel_UserInfo"
